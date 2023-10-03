@@ -91,7 +91,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: -webkit-linear-gradient( 90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);
+  background: -webkit-linear-gradient( 90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
   z-index: -1;
 }
 
@@ -130,7 +130,7 @@ html,body {
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
-  color: #7f56fd;
+  color: #000000;
   font-family: Roboto-Light;
   font-weight: bold;
   margin-top: 30px;
@@ -166,6 +166,7 @@ html,body {
   font-family: Roboto-Light;
   font-weight: bold;
   background: url("../assets/images/logo.png") no-repeat;
+
   padding-left: 45px;
   background-position: left center;
 }
@@ -177,7 +178,7 @@ html,body {
 }
 
 .Rectangle_ {
-  background-image: -ms-linear-gradient( 90deg, rgb(108,76,206) 0%, rgb(127,86,253) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
   opacity: 0.929;
   position: absolute;
   left: 0px;
@@ -339,7 +340,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  background-color: rgba(2, 2, 2, 0.9);
   z-index: -1;
 }
 
@@ -536,7 +537,7 @@ html,body {
   opacity: 0;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  background-color: rgba(133, 91, 249, .9);
+  background-color: rgba(0, 0, 0, 0.9);
   border-radius: 10px;
 }
 
@@ -577,7 +578,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: -1;
 }
 
